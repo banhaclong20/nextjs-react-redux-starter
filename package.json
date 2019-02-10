@@ -1,0 +1,23 @@
+{
+  "name": "rumbleon-next",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node /server/ssr-server.js",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.3",
+    "express": "^4.16.4",
+    "helmet": "^3.15.1",
+    "next": "^7.0.2",
+    "next-routes": "^1.4.2",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
+  }
+}
